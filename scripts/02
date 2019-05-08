@@ -1,0 +1,6 @@
+#!/bin/bash
+killall -u "$1"
+if ["$1" != "root"]
+then 
+	su -c userdel -f "$1"
+fi

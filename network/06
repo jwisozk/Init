@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "The complete path:
+/etc/resolv.conf"
+echo "Content:"
+cat /etc/resolv.conf

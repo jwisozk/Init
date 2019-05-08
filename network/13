@@ -1,0 +1,4 @@
+#!/bin/bash
+# Command:
+nslookup "$(ipconfig getifaddr en0)" | awk '/name/{gsub(/.$/,""); print $4}'
+# e2r2p6.21-school.ru

@@ -1,0 +1,7 @@
+#!/bin/bash
+# Command:
+host 42.fr | awk '/has address/{print $4}'
+# Output:
+# 163.172.250.12
+# 163.172.250.13
+# 163.172.250.11

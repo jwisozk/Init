@@ -1,0 +1,1 @@
+The last ip 192.168.x.x in output of command "traceroute slash16.org" is the device that makes the link between my (local network) and the outside world.

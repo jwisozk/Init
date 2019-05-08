@@ -1,0 +1,4 @@
+#!/bin/bash
+# Use ip addresses in output nslookup slash16.org with command "whois [ip address]"  
+# also can check with command host -C slash16.org
+# provider of slash16.org is Amazon
